@@ -25,13 +25,13 @@ Users should be able to:
 
 ### Screenshot
 
-![](./newsc.png)
+![](./public/newsc.png)
 
 
 ### Links
 
 - Solution URL: [GitHub Solution]()
-- Live Site URL: [Nwtlify Live Url](https://64ae90692562b81be790eb01--stately-brioche-379bbd.netlify.app/)
+- Live Site URL: [Netlify Live Url](https://64ae90692562b81be790eb01--stately-brioche-379bbd.netlify.app/)
 
 ## My process
 
