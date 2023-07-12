@@ -25,7 +25,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./public/newsc.png)
+![News Home Page](./public/newsc.png)
 
 
 ### Links

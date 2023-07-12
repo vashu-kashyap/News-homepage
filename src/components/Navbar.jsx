@@ -27,8 +27,8 @@ const Navbar = () => {
       <div className="nav-brand">
         <img src={logo} alt="logo" />
       </div>
-      <ul className={`nav-menu flex justify-start items-center gap-x-10 max-lg:fixed max-lg:flex-col max-lg:items-start ${showMenu}  max-lg:top-0 max-lg:w-2/3 max-lg:min-h-screen max-lg:bg-Off-white max-lg:pt-32 max-lg:gap-y-5 max-lg:font-bold max-lg:px-10 transition-all ease-in-out duration-500`} before="hello">
-        <img className='closemenu absolute top-5 right-5 hidden max-lg:block cursor-pointer' onClick={handleclosemenu} src={menuclose} alt="close menu icon" />
+      <ul className={`nav-menu flex justify-start items-center gap-x-10 max-lg:fixed max-lg:flex-col max-lg:items-start ${showMenu}  max-lg:top-0 max-lg:w-2/3 max-lg:min-h-screen max-lg:bg-Off-white max-lg:pt-32 max-lg:gap-y-5 max-lg:font-bold max-lg:px-10 transition-all ease-in-out duration-500`} >
+        <li><img className='closemenu absolute top-5 right-5 hidden max-lg:block cursor-pointer' onClick={handleclosemenu} src={menuclose} alt="close menu icon" /></li>
         <li className="navlink"><a className='font-inter text-sm text-Dark-grayish-blue hover:text-Soft-red transition-all duration-200 ease-in-out ' href="/">Home</a></li>
         <li className="navlink"><a className='font-inter text-sm text-Dark-grayish-blue hover:text-Soft-red transition-all duration-200 ease-in-out ' href="/">New</a></li>
         <li className="navlink"><a className='font-inter text-sm text-Dark-grayish-blue hover:text-Soft-red transition-all duration-200 ease-in-out ' href="/">Popular</a></li>

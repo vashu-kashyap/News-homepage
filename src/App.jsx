@@ -4,11 +4,17 @@ import Home from "./pages/Home";
 import MyArticle from "./pages/MyArticle";
 
 const App = () => {
-  return <>
-    <Navbar/>
-    <Home/>
-    <MyArticle/>
-  </>
+  return (
+    <>
+      <header>
+        <Navbar />
+      </header>
+      <main>
+        <Home />
+        <MyArticle />
+      </main>
+    </>
+  );
 };
 
 export default App;
